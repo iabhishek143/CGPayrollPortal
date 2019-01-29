@@ -9,25 +9,16 @@ public class BankDetails {
 		private String bankName, ifscCode;
 		
 		public BankDetails() {}
-
-		
-
 		public BankDetails(int accountNumber, String bankName, String ifscCode) {
 			super();
 			this.accountNumber = accountNumber;
 			this.bankName = bankName;
 			this.ifscCode = ifscCode;
 		}
-
-
-
 		public BankDetails(String bankName) {
 			super();
 			this.bankName = bankName;
 		}
-
-
-
 		public int getAccountNumber() {
 			return accountNumber;
 		}

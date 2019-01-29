@@ -4,13 +4,9 @@ import java.util.List;
 import java.util.Scanner;
 
 import com.cg.payroll.beans.Associate;
-import com.cg.payroll.beans.BankDetails;
-import com.cg.payroll.beans.Salary;
 import com.cg.payroll.daoservices.AssociateDAO;
 import com.cg.payroll.daoservices.AssociateDAOImpl;
 import com.cg.payroll.exceptions.AssociateDetailsNotFoundException;
-
-import oracle.net.aso.a;
 
 public class PayrollServicesImpl implements PayrollServices{
 	Scanner scanner= new Scanner( System.in);

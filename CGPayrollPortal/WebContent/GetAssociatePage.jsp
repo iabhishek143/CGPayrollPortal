@@ -5,7 +5,7 @@
 </head>
 <body>
 <a href="IndexPage.jsp">Home</a>
-	<form action="CalculateSalaryServlet" class="register" name="loginform">
+	<form action="GetAssociateServlet" class="register" name="loginform">
 		<h1>Find Associate</h1>
 		
 		<fieldset class="row1">
@@ -14,9 +14,10 @@
 				<label>Associate ID * </label> <input name="associateID" type="text" /> <br><br>
 			</p>
 			<div >
-				<button class="button">Calculate &raquo;</button>
+				<button class="button">Submit &raquo;</button>
 			</div>
 		</fieldset>
 	</form>
+	<p align="center"> © Capgemini 2019</p>
 </body>
 </html>

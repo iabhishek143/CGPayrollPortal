@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css"   href="css/default.css" />
 </head>
 <body>
+<a href="IndexPage.jsp">Home</a>
 	<form action="AcceptAssociateServlet" class="register">
 		<h1>Registration</h1>
 		<fieldset class="row1">
@@ -74,13 +75,19 @@
 				<input type="checkbox" value="" /> <label>* I accept the <a
 					href="#">Terms and Conditions</a></label>
 			</p>
+			<p class="popup">
+			${requestScope.success }
+			</p>
+			
 		</fieldset>
+
 		<div>
-			<button class="button" type="submit" value="Submit">Register &raquo;</button>
+			<button class="button" type="submit" value="Submit" id="myBtn">Register &raquo;</button>
 		</div>
 		<div>
 			<button class="button">Sign Up &raquo;</button>
 		</div>
 	</form>
+	<p align="center"> © Capgemini 2019</p>
 </body>
 </html>

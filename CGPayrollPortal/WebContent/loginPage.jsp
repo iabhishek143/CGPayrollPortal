@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/default.css" />
 </head>
 <body>
+<a href="IndexPage.jsp">Home</a>
 	<form action="LoginServlet" class="register" name="loginform" method="post">
 		<h1>Log In</h1>
 
@@ -25,5 +26,6 @@
 				<input type="reset" value="reset"	name="Reset" class="button">		</div>
 		</fieldset>
 	</form>
+	<p align="center"> © Capgemini 2019</p>
 </body>
 </html>

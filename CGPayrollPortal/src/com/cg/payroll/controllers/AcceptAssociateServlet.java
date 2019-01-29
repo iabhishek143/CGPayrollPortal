@@ -45,8 +45,8 @@ public class AcceptAssociateServlet extends HttpServlet {
 		} catch (AssociateDetailsNotFoundException e) {
 			e.printStackTrace();
 		}
-		request.setAttribute("associate", associate);
-        RequestDispatcher dispatcher=request.getRequestDispatcher("AcceptedAssociate.jsp");
+		request.setAttribute("success", "Associate registered successfully with Associate ID: "+associate.getAssociateID());
+        RequestDispatcher dispatcher=request.getRequestDispatcher("AcceptAssociatePage.jsp");
         dispatcher.forward(request, response);
 	}
 }

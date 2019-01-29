@@ -12,7 +12,7 @@
             <property name="javax.persistence.jdbc.user" value="system" />
             <property name="javax.persistence.jdbc.password" value="Capgemini@123" />
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
-            <property name="hibernate.hbm2ddl.auto" value="create" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.OracleDialect" />
         </properties>

@@ -7,7 +7,8 @@
 <title>Successful</title>
 </head>
 <body>
+<a href="IndexPage.jsp">Home</a>
 <font color="green" size="25px">Associate Saved Successfully ${requestScope.associate.associateID}</font>
-
+<p align="center"> © Capgemini 2019</p>
 </body>
 </html>

@@ -4,6 +4,7 @@
 <link rel="stylesheet" type="text/css" href="css/default.css" />
 </head>
 <body>
+<a href="IndexPage.jsp">Home</a>
 	<form action="CalculateSalaryServlet" class="register" name="loginform">
 		<h1>Salary Details Are:</h1>
 		<fieldset class="row1">
@@ -13,5 +14,6 @@
 			  </font>
 		</fieldset>
 	</form>
+	<p align="center"> © Capgemini 2019</p>
 </body>
 </html>
